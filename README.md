@@ -3,25 +3,40 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+In this project we are given a dataset with loan request, and various informatation about the person, such as income, education status, etc. My goal is to develop a model that takes the necessary information and makes a perdiction on wether a loan will be granted or not
 
 ## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+Applicants with a combination of higher education, income, credit history and living area are more likely to be approved for a loan
+
 
 ## EDA 
-(fill in what you discovered in your exploration of the dataset)
+I went through the data to comfirm or deny my hypothesis
 
+graduates are much more likely to get a loan approved
+
+<img src="images/education.png">
+
+Property only has a mild impact on loan status
+
+<img src="images/propertyArea.png">
+
+Credit History has a large impact on if a loan will
+
+<img src="images/credit.png">
 
 ## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
+Data retrieval
+cleaning - removing NANS
+exploration - looking at the data, comfirming/denying hypothesis
+Modeling and feature selection - decided to use only logistic regression
+Deployment - managed to set up deployment to AWS but isn't it working entirely yet
+
 
 ## Results/Demo
-(fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
+<img src="images/pipeline.png">
 
 ## Challanges 
-(discuss challenges you faced in the project)
+Given the time constaints I wasn't really able to execute the project, I later realized that I lost all my work and accidentally submited a blank template, as I was redoing the project AWS was giving me many issues and I couldn't quite finish the deploying my work
 
 ## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
+given more time I would like to fix my AWS problems and get the deployment fully functioning
