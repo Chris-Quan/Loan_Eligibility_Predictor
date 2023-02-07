@@ -39,4 +39,4 @@ Deployment - managed to set up deployment to AWS but isn't it working entirely y
 Given the time constaints I wasn't really able to execute the project, I later realized that I lost all my work and accidentally submited a blank template, as I was redoing the project AWS was giving me many issues and I couldn't quite finish the deploying my work
 
 ## Future Goals
-given more time I would like to fix my AWS problems and get the deployment fully functioning
+The predictor model is weak and given more time I could improve it
