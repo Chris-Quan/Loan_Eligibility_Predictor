@@ -34,6 +34,7 @@ Deployment - managed to set up deployment to AWS but isn't it working entirely y
 
 ## Results/Demo
 <img src="images/pipeline.png">
+<img src="postman-deployment-test.png">
 
 ## Challanges 
 Given the time constaints I wasn't really able to execute the project, I later realized that I lost all my work and accidentally submited a blank template, as I was redoing the project AWS was giving me many issues and I couldn't quite finish the deploying my work
