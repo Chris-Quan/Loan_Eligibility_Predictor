@@ -1,6 +1,3 @@
-# Mini-project IV
-
-### [Assignment](assignment.md)
 
 ## Project/Goals
 In this project we are given a dataset with loan request, and various informatation about the person, such as income, education status, etc. My goal is to develop a model that takes the necessary information and makes a perdiction on wether a loan will be granted or not
@@ -31,6 +28,14 @@ exploration - looking at the data, comfirming/denying hypothesis
 Modeling and feature selection - decided to use only logistic regression
 Deployment - managed to set up deployment to AWS but isn't it working entirely yet
 
+## skills used:
+Data Preparation
+Feature Engineering
+Supervised Learning
+Pipelines
+Model Persistance
+Flask - building an API
+Deployment to Cloud (AWS)
 
 ## Results/Demo
 <img src="images/pipeline.png">
